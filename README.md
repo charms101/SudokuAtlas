@@ -16,7 +16,7 @@ Then visit <http://localhost:8000>.
 
 - Six difficulty sections and a dedicated hash-routed page for each technique.
 - Search, difficulty filters, previous/next lesson links, glossary, and browser-local learning progress.
-- Two worked cases on every lesson page. Every case now displays a 9×9 Sudoku grid, and revealing each step highlights the cells involved. The first ten lessons have playable grids; advanced proof grids use a completed reference Sudoku for orientation, with the relevant candidates layered on top and focus regions labeled with technique-specific terms (for example, base lines and cover lines for fish, or pivot and wings for XY-Wing). Those reference digits are visual context, not additional givens in the proof.
+- Two worked cases on every lesson page. Every case now displays a 9×9 Sudoku grid, and revealing each step highlights the cells involved. The first ten lessons have playable grids; advanced technique diagrams show contextual digits, small candidate marks, and technique-specific labels (for example, base lines and cover lines for fish, or pivot and wings for XY-Wing). These contextual digits are not puzzle givens.
 - The Easy → Full House lesson includes two interactive grids: one row and one column, each with eight filled cells and one missing digit.
 
 Use the number buttons or keyboard digits to enter a grid answer. The example tabs, reveal controls, and progress button work entirely in the browser. Progress is saved in local storage on that device.

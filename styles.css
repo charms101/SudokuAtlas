@@ -7,3 +7,5 @@
 .full-grid-note{font-size:10px;color:#737c73;margin:8px 0}
 
 .role-base{background:#e8eee3!important}.role-cover{background:#e4eaf5!important}.role-pivot{background:#eadff0!important}.role-wing{background:#f7ecd4!important}.role-set{background:#e8eee3!important}.role-locked{background:#f5ebd7!important}.role-unique{background:#eee6db!important}.role-chain{background:#e4eaf5!important}.role-pattern{background:#e8eee3!important}.role-target,.role-chip.role-target{background:#f8e1d8!important;color:#963f2a}.role-tag{position:absolute;left:2px;top:1px;z-index:2;background:#ffffffdb;color:#20382f;border-radius:2px;padding:0 2px;font:600 6px/1.2 sans-serif;max-width:96%;white-space:nowrap;overflow:hidden}.role-legend{display:flex;gap:5px;flex-wrap:wrap}.role-chip{font-size:9px;padding:3px 7px;border-radius:4px;background:#e8eee3;color:#20382f}
+
+.given-digit,.key-given{color:#111!important;font-weight:600}.placed-digit,.key-placed{color:#3175d7!important;font-weight:600}.key-given,.key-placed{display:inline-block;font-size:14px;margin:0 3px;padding:0 3px}.proof-grid .pencil{color:#202020;font-weight:600}.proof-grid .role-target{background:#f8dfd8!important}
