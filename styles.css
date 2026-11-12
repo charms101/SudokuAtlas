@@ -9,3 +9,8 @@
 .role-base{background:#e8eee3!important}.role-cover{background:#e4eaf5!important}.role-pivot{background:#eadff0!important}.role-wing{background:#f7ecd4!important}.role-set{background:#e8eee3!important}.role-locked{background:#f5ebd7!important}.role-unique{background:#eee6db!important}.role-chain{background:#e4eaf5!important}.role-pattern{background:#e8eee3!important}.role-target,.role-chip.role-target{background:#f8e1d8!important;color:#963f2a}.role-tag{position:absolute;left:2px;top:1px;z-index:2;background:#ffffffdb;color:#20382f;border-radius:2px;padding:0 2px;font:600 6px/1.2 sans-serif;max-width:96%;white-space:nowrap;overflow:hidden}.role-legend{display:flex;gap:5px;flex-wrap:wrap}.role-chip{font-size:9px;padding:3px 7px;border-radius:4px;background:#e8eee3;color:#20382f}
 
 .given-digit,.key-given{color:#111!important;font-weight:600}.placed-digit,.key-placed{color:#3175d7!important;font-weight:600}.key-given,.key-placed{display:inline-block;font-size:14px;margin:0 3px;padding:0 3px}.proof-grid .pencil{color:#202020;font-weight:600}.proof-grid .role-target{background:#f8dfd8!important}
+
+.proof-grid .pencil{font-size:clamp(8px,1vw,12px)}.grid .pencil{font-size:clamp(8px,.9vw,11px)}
+
+.exercise-content{grid-template-columns:minmax(340px,440px) minmax(280px,1fr)}.proof-grid .pencil,.grid .pencil{font-size:clamp(10px,1.05vw,14px);color:#111;font-weight:600}.pencil span{min-height:1em}
+@media(min-width:1450px){.exercise-content{grid-template-columns:440px minmax(320px,1fr)}}@media(max-width:1150px){.exercise-content{grid-template-columns:minmax(300px,390px) minmax(240px,1fr)}}@media(max-width:850px){.exercise-content{grid-template-columns:1fr}.exercise-content>div:first-child{max-width:500px}}
